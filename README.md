@@ -1,8 +1,8 @@
-This readme file will explain my java code which produces a report containing the list of artists that appear on Spotify's Top 200 list for the week of August 27, 2020 in alphabetical order, which is what the description of Lab 2 asked for.
+This readme file will explain my java code which produces a report containing the list of artists that appear on Spotify's Top 200 list for the week of August 27, 2020 in alphabetical order. 
 There are also two other files in the repository aside from the java file which contains the code, the java file is titled "Lab2.java". 
 The other two files are titled "regional-us-weekly-latest.txt" and "Artists-WeekOf08272020.txt"
 The file titled "regional-us-weekly-latest.txt" is the input file, it is a csv file that I downloaded from Spotify and saved as a txt file, it contains the data for the Top 200 list for the week of August 27, 2020 in the US.
-The file titled "Artists-WeekOf08272020.txt" is the final output file, after all the code executes and it prints the processed data using a printwriter to print it to an output file. It is titled based on the recommended format in the Lab 2 description. 
+The file titled "Artists-WeekOf08272020.txt" is the final output file, after all the code executes and it prints the processed data using a printwriter to print it to an output file.
 The "Lab2.java" contains all the code to process the data in the csv file and produce the desired file. I will now proceed to briefly explain the steps and structure of the code.
 First, in the main method, I set up a Scanner object to read the csv file and then a PrintWriter object which will eventually get the output printed on to an output file.
 The first 2 lines of the data file are irrelevant since they are just headers, so I skip the first two lines using two strings.
